@@ -47,7 +47,7 @@ function getImageUrl(path) {
 <style scoped>
 .retro-title {
   font-family: 'Shrikhand', cursive;
-  font-size: 2.5rem;
+  font-size: 2.5rem;   
   color: #6c1e1e;
 }
 
