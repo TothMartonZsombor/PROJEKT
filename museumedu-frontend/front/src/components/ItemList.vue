@@ -39,15 +39,14 @@ const filteredItems = computed(() =>
 )
 
 function getImageUrl(path) {
-  const clean = path.replaceAll('\\\\', '/').replaceAll('\\', '/');
-  return 'http://localhost:8000' + clean;
+  const clean = path.replaceAll('\\\', '/').replaceAll('\\', '/'); return 'http://localhost:8000' + clean;
 }
 </script>
 
 <style scoped>
 .retro-title {
   font-family: 'Shrikhand', cursive;
-  font-size: 2.5rem;   
+  font-size: 2.5rem;
   color: #6c1e1e;
 }
 
